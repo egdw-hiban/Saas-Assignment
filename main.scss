@@ -1,0 +1,241 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+  
+    .social-icons, .menu-items, .phone-number {
+      display: flex;
+    }
+  
+    .social-icons a {
+      margin-right: 10px;
+      color: black;
+    }
+  
+    .menu-items ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .menu-item ul li .home{
+        color: blue;
+    }
+  
+    .logo img {
+        height: 80px;
+        margin-top: 0%;
+        // font-size: 24px;
+        // padding: 5px 15px;
+    }
+  
+    .phone-number span {
+      border: 2px solid yellow;
+      padding: 5px 15px;
+      color: #4586d5;
+      font-weight: bold;
+    }
+  }
+
+  .service-section {
+    text-align: center;
+    font:18px;
+    font-family: sans-serif;
+  }
+    .service-section .service{
+        color: #4586d5;
+        text-align: left;
+        font-family: sans-serif;
+      }
+    .service-section .service1{
+        color: black;
+        text-align: left;
+        font-family: sans-serif;
+      }
+    
+    .service-card {
+      display: inline-block;
+      margin: 20px;
+      img {
+        width: 80%;
+        height: auto;
+      }
+      .service-info {
+        background-color: #fff;
+        padding: 10px;
+        h3 {
+          font-weight: bold;
+          color: #333;
+        }
+        p {
+          color: #666;
+        }
+        .info-link {
+          display: inline-block;
+          margin-top: 10px;
+          padding: 5px 10px;
+         
+          color: #000;
+          text-decoration: underline;
+         
+        }
+      }
+    }
+    .quote-btn {
+      position: absolute;
+      top:100px;
+      right:10px;
+      padding: 10px 20px;
+      border: 2px solid yellow;
+      color: #4586d5;
+      font-family: sans-serif;
+      font-weight: bold;
+   
+      }
+    
+  .stats-section {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a2b3c; 
+   
+    .stat-item {
+      text-align: center;
+      img {
+        width:70% ; 
+        height: 70px; 
+        margin-top: 50px;
+      }
+      .stat-info {
+        .stat-number {
+          color: #fff; 
+          font-size: 30px; 
+        }
+        .stat-label {
+          color: #4586d5;
+      font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .hvac-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    .hvac-image {
+      flex: 1;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .hvac-content {
+      flex: 1;
+      padding: 20px;
+      h1 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+      h2 {
+        color: #555;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #666;
+        margin-bottom: 20px;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+  &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+
+  .footer {
+    height:300px;
+    background-color:#142336;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+ 
+    .footer-column {
+        flex-basis: 25%;
+        padding: 10px;
+        
+       
+        h2 {
+            font-size: 18px;
+            color:white;
+            margin-bottom: 10px;
+            font-family: sans-serif;
+            z-index: 1;
+           
+        }
+        p {
+            font-size: 14px;
+            color: #999;
+        }
+        ul {
+            list-style: none;
+             padding: 0;
+           
+             
+            li {
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+                width:50%;
+               float: left;
+                a {
+                    color:#999 ;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        input[type="email"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #FFCC00;
+            color: #000;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            &:hover {
+                background-color: #e6b800;
+            }
+        }
+    }
+    
+}
+
+
+  
